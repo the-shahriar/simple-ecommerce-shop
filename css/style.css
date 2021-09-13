@@ -44,7 +44,7 @@ body {
 
 .single-product {
   padding: 10px;
-  transition: 0.6s;
+  transition: 0.8s;
 }
 
 .single-product:hover {
@@ -52,7 +52,6 @@ body {
   border-radius: 10px;
   background-color: lightgrey;
   opacity: 0.9;
-  transition: scaleY(180);
 }
 
 .product-image {
