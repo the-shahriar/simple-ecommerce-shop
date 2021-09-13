@@ -1,7 +1,12 @@
+/* Common CSS */
+
 body {
     overflow-x: hidden;
     font-family: "Montserrat", sans-serif;
 }
+
+
+/* Search Field */
 
 .search-field {
     border: none;
@@ -30,6 +35,9 @@ body {
     border-radius: 25px;
     margin-left: 20px;
 }
+
+
+/* Products */
 
 #all-products {
     display: grid;
@@ -75,6 +83,24 @@ body {
     text-transform: capitalize;
 }
 
+
+/* Rating Info */
+
+.product-rating {
+    margin: auto;
+    background-color: teal;
+    width: 40%;
+    padding: 4px;
+    color: white;
+}
+
+.total-rating {
+    margin: auto;
+}
+
+
+/* Cart */
+
 .cart {
     width: 350px;
     /* border: 1px solid green; */
@@ -89,17 +115,8 @@ body {
     padding-right: 30px;
 }
 
-.product-rating {
-    margin: auto;
-    background-color: teal;
-    width: 40%;
-    padding: 4px;
-    color: white;
-}
 
-.total-rating {
-    margin: auto;
-}
+/* Responsive */
 
 @media only screen and (max-width: 768px) {
     #all-products {

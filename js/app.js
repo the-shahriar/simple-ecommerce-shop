@@ -82,4 +82,5 @@ const updateTotalPrice = () => {
     document.getElementById("total").innerText = grandTotal.toFixed(2);
 };
 
+// load all the products
 loadProducts();
